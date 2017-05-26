@@ -1,0 +1,1 @@
+!function(a){var l=a(".originalW"),n=a(".originalH");l.bind("propertychange change click keyup input paste",function(){a(".w15").val(1.5*l.val()),a(".w2").val(2*l.val()),a(".w3").val(3*l.val())}),n.bind("propertychange change click keyup input paste",function(){a(".h15").val(1.5*n.val()),a(".h2").val(2*n.val()),a(".h3").val(3*n.val())})}(jQuery);
