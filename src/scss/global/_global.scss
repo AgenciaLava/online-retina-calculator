@@ -7,6 +7,9 @@ html {
 *:after {
     box-sizing: inherit;
 }
+body {
+    font-family: $raleway;
+}
 :focus {
     outline: $grey0 1px dotted; //this should have a lot of contrast for usability reasons
 }
@@ -14,4 +17,7 @@ html {
     margin: auto;
     padding: 0 20px;
     max-width: 400px;
+}
+input {
+    font-family: $raleway;
 }
